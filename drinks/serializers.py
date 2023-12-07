@@ -3,6 +3,6 @@ from .models import Drink
 
 
 class DrinkSerializer(serializers.ModelSerializer):
-    class meta:
+    class Meta:
         model = Drink
         fields = ['id', 'name', 'description']
